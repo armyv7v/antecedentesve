@@ -1,0 +1,142 @@
+<form action="https://docs.google.com/forms/d/e/1FAIpQLSfEbfKn7UFY3mo6SuHhY2CyeifHstjmyidWshJqb0TVgnFSrw/formResponse"
+      target="_self"
+      id="bootstrapForm"
+      method="POST">
+    <fieldset>
+        <h2>Solicitud de Antecedentes Penales<br><small>Valor de Solicitud 20.000 Pesos se entrega el dia que le correspa según terminal de cédula</small></h2>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "29566810" -->
+    <fieldset>
+        <legend for="29566810">Cédula de Identidad</legend>
+        <div class="form-group">
+            <textarea id="2038725163" name="entry.2038725163" class="form-control" required></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "1190139483" -->
+    <fieldset>
+        <legend for="1190139483">Usuario web Antecedentes</legend>
+        <div class="form-group">
+            <input id="1769646395" type="text" name="entry.1769646395" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "765931714" -->
+    <fieldset>
+        <legend for="765931714">Clave web Antecedentes</legend>
+        <div class="form-group">
+            <input id="892831168" type="text" name="entry.892831168" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "short" id: "1229260598" -->
+    <fieldset>
+        <legend for="1229260598">País Solicitante</legend>
+        <div class="form-group">
+            <input id="1955126108" type="text" name="entry.1955126108" class="form-control" required>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "choices" id: "1116241454" -->
+    <fieldset>
+        <legend for="1116241454">Motivo de la Solicitud</legend>
+        <div class="form-group">
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1593225804" value="Solicitud Visa" required>
+                    Solicitud Visa
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1593225804" value="Trabajo" required>
+                    Trabajo
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1593225804" value="Solicitud de Residencias" required>
+                    Solicitud de Residencias
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="entry.1593225804" value="Otros" required>
+                    Otros
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "811584831" -->
+    <fieldset>
+        <legend for="811584831">Whatsapp de Contacto</legend>
+        <div class="form-group">
+            <textarea id="1323522219" name="entry.1323522219" class="form-control" ></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "410424590" -->
+    <fieldset>
+        <legend for="410424590">Correo electrónico de contacto</legend>
+        <div class="form-group">
+            <textarea id="124980109" name="entry.124980109" class="form-control" required></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "section" id: "1090139563" -->
+    <fieldset>
+        <legend for="1090139563">Solicitud de Apostilla </legend>
+        <div class="form-group">
+            <p class="help-block">El Valor de Apostilla es de 15.000 Pesos el trámite demora aproximadamente 3-4 Semanas</p>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "1258099875" -->
+    <fieldset>
+        <legend for="1258099875">Usuario web de Apostilla</legend>
+        <div class="form-group">
+            <textarea id="144850527" name="entry.144850527" class="form-control" ></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "2125147829" -->
+    <fieldset>
+        <legend for="2125147829">Clave de acceso web Apostilla</legend>
+        <div class="form-group">
+            <textarea id="735473439" name="entry.735473439" class="form-control" ></textarea>
+        </div>
+    </fieldset>
+
+
+    <!-- Field type: "paragraph" id: "1452723987" -->
+    <fieldset>
+        <legend for="1452723987">Pais que solicita Apostilla</legend>
+        <div class="form-group">
+            <textarea id="1855833924" name="entry.1855833924" class="form-control" ></textarea>
+        </div>
+    </fieldset>
+
+    <input type="hidden" name="fvv" value="1">
+    <input type="hidden" name="fbzx" value="860895807418443870">
+    <!--
+        CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
+        This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
+        Keep this in mind if you plan to change this code to recreate any sort of multipage-feature in your exported form.
+        We're setting this to the total number of pages in this form because we're sending all fields from all the section together.
+    -->
+    <input type="hidden" name="pageHistory" value="0,1">
+
+    <input class="btn btn-primary" type="submit" value="Submit">
+</form>
